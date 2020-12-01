@@ -1,0 +1,12 @@
+* {
+  background-color: orange;
+}
+
+#content {
+  background-color: yellow;
+}
+#content:hover {
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
