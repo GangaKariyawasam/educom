@@ -1,0 +1,98 @@
+/*.header{
+    background-color: #3b5998;
+}
+.leftcolumn{
+    background-color: #285AEB;
+    !*width: 500px;*!
+}
+.row{
+    background-color: #333333;
+    !*height: 100%;*!
+ }*/
+.card {
+    background-color: #fdf497;
+    width: 400px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0;
+}
+ .accountingimg{
+     background-color: #d6249f;
+     background-image:url("../images/accounting.jpg");
+     background-size: cover;
+     height: 200px;
+     padding: 5px;
+ }
+ .pastpaperimg{
+     background-color: #25d366;
+     height: 200px;
+     background-image: url("../images/past papers.jpg");
+     background-size: cover;
+ }
+ .modelimg{
+     background-color: #fd5949;
+     height: 200px;
+     background-image: url("../images/model.jpeg");
+     background-size: cover;
+ }
+ body{
+     font-family:C059;
+     padding:20px;
+     background:gainsboro;
+ }
+ .header{
+     padding: 20px;
+     font-size: 20px;
+     text-align: center;
+     background: white;
+     margin-bottom: 20px;
+     box-shadow:0 4px 6px 0;
+ }
+ .leftcolumn{
+     background-color: #25d366;
+     float:left;
+     width: 40%;
+     text-align: center;
+     padding-left: 60px;
+ }
+ .rightcolumn{
+     background-color: #285AEB;
+     float: right;
+     width: 40%;
+     padding-left:20px;
+     padding-right: 20px;
+     height: 1000px;
+ }
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+.bar1,.bar2,.bar3{
+    width:35px;
+    height:5px;
+    background-color: #285AEB;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.change .bar1{
+    -webkit-transform: rotate(-45deg) translate(-9px,6px);
+    transform: rotate(-45deg)translate(-9px,6px);
+}
+.rightcolumn #h2{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: cornflowerblue;
+    height: 50px;
+}
+.game{
+    background-color: #fd5949;
+}
+.stage{
+    background-color: #d6249f;
+    color: #333333;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}

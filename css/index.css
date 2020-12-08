@@ -195,7 +195,7 @@ footer a{
     transition: 0s;
 }*/
 .subject{
-    background-color: yellow;
+    background-color: #333333;
     display: flex;
 }
 .fa-whatsapp  {
